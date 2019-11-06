@@ -4,13 +4,23 @@
   box-sizing: border-box;
 }
 /* contatore */
-
+#contatore{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+#cont-rosso{
+  color: red;
+}
+#cont-verde{
+  color: green;
+}
 
 
 
 /* griglia */
 .contenitore{
-  margin-top: 200px;
+  margin-top: 50px;
 }
 .grigliaFlex{
   width: 320px;
