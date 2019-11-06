@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* contatore */
+
+
+
+
+/* griglia */
+.contenitore{
+  margin-top: 200px;
+}
+.grigliaFlex{
+  width: 320px;
+  margin: auto;
+  display: flex;
+}
+.quadratini{
+  height: 40px;
+  border: solid 1px black;
+  flex-basis: calc( 100% / 8 );
+}
