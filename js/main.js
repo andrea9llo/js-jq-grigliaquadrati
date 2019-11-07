@@ -8,17 +8,18 @@ $( document ).ready(function() {
   $(".verde").click(function() {
     $(this).css("background","green");
     contatoreVerde = contatoreVerde + 1;
+    $(this).off();
     // console.log('verde!', contatoreVerde)
     document.getElementById('cont-verde').innerHTML = "le caselle verdi aperte sono " + contatoreVerde;
   })
   $(".rosso").click(function() {
     $(this).css("background","red");
     contatoreRosso += 1;
+    $(this).off();
     // console.log("rosso!",contatoreRosso);
     document.getElementById('cont-rosso').innerHTML = "le caselle rosse aperte sono " + contatoreRosso;
   })
-  document.getElementById('cont-rosso').innerHTML = "le caselle rosse aperte sono " + contatoreRosso;
-  document.getElementById('cont-verde').innerHTML = "le caselle verdi aperte sono " + contatoreVerde;
+
 
 
 })
